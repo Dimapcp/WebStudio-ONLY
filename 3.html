@@ -2,85 +2,109 @@
 <html lang="uk">
   <link rel="stylesheet" href="normolize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <head>
   <meta charset="UTF-8">
   <title>WebStudio — Портфоліо</title>
 </head>
-<body class="container">
-  <header>
-    <h1>WebStudio</h1>
-    <nav>
-      <a href="index.html">Студія</a> |
-      <a href="portfolio.html">Портфоліо</a> |
-      <a href="#contacts">Контакти</a>
-      
+
+<body class="container page">
+
+  
+  <header class="after_head header">
+    <h1 class="site_title">WebStudio</h1>
+
+    <nav class="navigation_menu nav">
+      <a class="navigation_item nav_item" href="index.html">Студія</a> |
+      <a class="navigation_item nav_item" href="portfolio.html">Портфоліо</a> |
+      <a class="navigation_item nav_item" href="#contacts">Контакти</a>
     </nav>
-    <p>Email: info@webstudio.com<br>Телефон: +38 (098) 111 11 11</p>
+
+    <p class="email_adres header_contacts">
+      Email: info@webstudio.com<br>
+      Телефон: +38 (098) 111 11 11
+    </p>
   </header>
-  <main>
-    <h2>Наші роботи</h2>
-    <div>
-      <button>Усі</button>
-      <button>Веб-сайти</button>
-      <button>Додатки</button>
-      <button>Дизайн</button>
-      <button>Маркетинг</button>
+
+  
+  <main class="main_content">
+    <h2 class="our_projects section_title">Наші роботи</h2>
+
+   
+    <div class="filters buttons_group">
+      <button class="all filter_btn">Усі</button>
+      <button class="website filter_btn">Веб-сайти</button>
+      <button class="apps filter_btn">Додатки</button>
+      <button class="desing filter_btn">Дизайн</button>
+      <button class="Marketing filter_btn">Маркетинг</button>
     </div>
-    <section id="portfolio">
-      <article>
-        <h3>Технокряк</h3>
-        <p>Веб-сайт</p>
+
+   
+    <section id="portfolio" class="portfolio">
+
+      <article class="art1 portfolio_item">
+        <h3 class="art1_item portfolio_title">Технокряк</h3>
+        <p class="art1_item portfolio_type">Веб-сайт</p>
       </article>
 
-      <article>
-        <h3>Постер New Orlean vs Golden Star</h3>
-        <p>Дизайн</p>
+      <article class="art2 portfolio_item">
+        <h3 class="art2_item portfolio_title">
+          Постер New Orlean vs Golden Star
+        </h3>
+        <p class="art2_item portfolio_type">Дизайн</p>
       </article>
 
-      <article>
-        <h3>Ресторан Seafood</h3>
-        <p>Додаток</p>
+      <article class="art_3 portfolio_item">
+        <h3 class="portfolio_title">Ресторан Seafood</h3>
+        <p class="portfolio_type">Додаток</p>
       </article>
 
-      <article>
-        <h3>Проєкт Prime</h3>
-        <p>Маркетинг</p>
+      <article class="portfolio_item">
+        <h3 class="portfolio_title">Проєкт Prime</h3>
+        <p class="portfolio_type">Маркетинг</p>
       </article>
 
-      <article>
-        <h3>Проєкт Boxes</h3>
-        <p>Додаток</p>
+      <article class="portfolio_item">
+        <h3 class="portfolio_title">Проєкт Boxes</h3>
+        <p class="portfolio_type">Додаток</p>
       </article>
 
-      <article>
-        <h3>Inspiration has no Borders</h3>
-        <p>Веб-сайт</p>
+      <article class="portfolio_item">
+        <h3 class="portfolio_title">Inspiration has no Borders</h3>
+        <p class="portfolio_type">Веб-сайт</p>
       </article>
 
-      <article>
-        <h3>Видання Limited Edition</h3>
-        <p>Дизайн</p>
+      <article class="portfolio_item">
+        <h3 class="portfolio_title">Видання Limited Edition</h3>
+        <p class="portfolio_type">Дизайн</p>
       </article>
 
-      <article>
-        <h3>Проєкт LAB</h3>
-        <p>Маркетинг</p>
+      <article class="portfolio_item">
+        <h3 class="portfolio_title">Проєкт LAB</h3>
+        <p class="portfolio_type">Маркетинг</p>
       </article>
 
-      <article>
-        <h3>Growing Business</h3>
-        <p>Додаток</p>
+      <article class="portfolio_item">
+        <h3 class="portfolio_title">Growing Business</h3>
+        <p class="portfolio_type">Додаток</p>
       </article>
+
     </section>
   </main>
-  <footer>
-    <p>WebStudio<br>
-    м. Київ, вул. Нова Українська, 36<br>
-    info@webstudio.com<br>
-    +38 (098) 111 11 11</p>
-    <p>© WebStudio — всі права захищені</p>
+
+  
+  <footer class="footer" id="contacts">
+    <p class="footer item footer_info">
+      WebStudio<br class="footer_item">
+      м. Київ, вул. Нова Українська, 36<br>
+      info@webstudio.com<br>
+      +38 (098) 111 11 11
+    </p>
+
+    <p class="footer_copy">
+      © WebStudio — всі права захищені
+    </p>
   </footer>
 
 </body>

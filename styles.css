@@ -8,7 +8,7 @@
       --color-footer-bg: #22242a;     
       --color-footer-text: #cbd2db;   
       --color-border: #e5e7eb;        
-      
+        font-family:"Roboto","Snads Shrief";
       --shadow-card: 0 6px 18px rgba(16, 24, 40, 0.04);
       --shadow-button: 0 6px 18px rgba(21, 131, 255, 0.18);
 

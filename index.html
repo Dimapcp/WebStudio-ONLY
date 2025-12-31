@@ -4,63 +4,106 @@
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>WebStudio — ефективні рішення для вашого бізнесу</title>
 </head>
-<body>
-    <header>
-    <h1>WebStudio</h1>
-    <nav>
-      <a href="#services">Послуги</a> |
-      <a href="#team">Команда</a> |
-      <a href="#contacts">Контакти</a>
+
+<body class="page">
+
+  
+  <header class="header">
+    <h1 class="site_title">WebStudio</h1>
+
+    <nav class="navigation">
+      <a class="navigation_item" href="#services">Послуги</a> |
+      <a class="navigation_item" href="#team">Команда</a> |
+      <a class="navigation_item" href="#contacts">Контакти</a>
     </nav>
-    <p>Email: info@webstudio.com<br>Телефон: +38 (098) 111 11 11</p>
+
+    <p class="header_contacts">
+      Email: info@webstudio.com<br>
+      Телефон: +38 (098) 111 11 11
+    </p>
   </header>
-  <section>
-    <h2>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h2>
-    <p>Ми створюємо привабливі сайти, які працюють на зростання вашого бізнесу — дизайн, розробка та підтримка.</p>
-    <button>Замовити послугу</button>
-    <h3>Наші переваги:</h3>
-    <ul>
-      <li><strong>Увага до деталей</strong> — контроль якості на кожному етапі.</li>
-      <li><strong>Пунктуальність</strong> — дотримуємося термінів і домовленостей.</li>
-      <li><strong>Сучасні технології</strong> — використовуємо новітні інструменти та підходи.</li>
+
+  
+  <section class="hero">
+    <h2 class="hero_title">
+      ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
+    </h2>
+
+    <p class="hero_text">
+      Ми створюємо привабливі сайти, які працюють на зростання вашого бізнесу — дизайн, розробка та підтримка.
+    </p>
+
+    <button class="hero_button">Замовити послугу</button>
+
+    <h3 class="advantages_title">Наші переваги:</h3>
+
+    <ul class="advantages_list">
+      <li class="advantages_item">
+        <strong>Увага до деталей</strong> — контроль якості на кожному етапі.
+      </li>
+      <li class="advantages_item">
+        <strong>Пунктуальність</strong> — дотримуємося термінів і домовленостей.
+      </li>
+      <li class="advantages_item">
+        <strong>Сучасні технології</strong> — використовуємо новітні інструменти та підходи.
+      </li>
     </ul>
   </section>
-  <section id="services">
-    <h2>Чим ми займаємося</h2>
-    <article>
-      <h3>Веб-розробка</h3>
-      <p>Створюємо сучасні вебсайти та вебдодатки: від простих лендингів до складних сервісів.</p>
+
+  
+  <section id="services" class="services">
+    <h2 class="section_title">Чим ми займаємося</h2>
+
+    <article class="service_item">
+      <h3 class="service_title">Веб-розробка</h3>
+      <p class="service_text">
+        Створюємо сучасні вебсайти та вебдодатки: від простих лендингів до складних сервісів.
+      </p>
     </article>
 
-    <article>
-      <h3>Дизайн інтерфейсів</h3>
-      <p>UX/UI дизайн, що підвищує конверсію та зручність користувачів.</p>
+    <article class="service_item">
+      <h3 class="service_title">Дизайн інтерфейсів</h3>
+      <p class="service_text">
+        UX/UI дизайн, що підвищує конверсію та зручність користувачів.
+      </p>
     </article>
 
-    <article>
-      <h3>Мобільні додатки</h3>
-      <p>Розробка мобільних рішень під iOS та Android.</p>
+    <article class="service_item">
+      <h3 class="service_title">Мобільні додатки</h3>
+      <p class="service_text">
+        Розробка мобільних рішень під iOS та Android.
+      </p>
     </article>
   </section>
-  <section id="team">
-    <h2>Наша команда</h2>
-    <ul>
-      <li>Ігор Демченко — Product Designer</li>
-      <li>Олена Рябко — Frontend Developer</li>
-      <li>Микола Тарасов — Marketing</li>
-      <li>Михайло Єрмаков — UI Designer</li>
+
+  
+  <section id="team" class="team">
+    <h2 class="section_title">Наша команда</h2>
+
+    <ul class="team_list">
+      <li class="team_member">Ігор Демченко — Product Designer</li>
+      <li class="team_member">Олена Рябко — Frontend Developer</li>
+      <li class="team_member">Микола Тарасов — Marketing</li>
+      <li class="team_member">Михайло Єрмаков — UI Designer</li>
     </ul>
   </section>
-    <footer>
-    <p>WebStudio<br>
-    м. Київ, вул. Нова Українська, 36<br>
-    info@webstudio.com<br>
-    +38 (098) 111 11 11</p>
-    <p>© WebStudio — всі права захищені</p>
+
+  
+  <footer class="footer" id="contacts">
+    <p class="footer_info">
+      WebStudio<br>
+      м. Київ, вул. Нова Українська, 36<br>
+      info@webstudio.com<br>
+      +38 (098) 111 11 11
+    </p>
+
+    <p class="footer_copy">
+      © WebStudio — всі права захищені
+    </p>
   </footer>
 
 </body>
