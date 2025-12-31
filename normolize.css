@@ -8,3 +8,20 @@ section  {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+    button {
+      background: rgb(0, 191, 255);
+      color:rgb(255, 255, 255) ;
+      border: none;
+      border-radius: none;
+      padding: 10px 20px;
+      box-shadow: 3px 3px;
+    }
+    :hover button {
+      background: rgb(0, 191, 255);
+      color:rgb(255, 255, 255) ;
+      text-decoration-color: aqua;
+      border: none;
+      border-radius: none;
+      padding: 10px 20px;
+      box-shadow: 10px;
+    }
