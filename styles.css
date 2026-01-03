@@ -17,7 +17,18 @@
       --font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
       text-align: center;
     }
-
+            header {
+          display: flex;
+        }
+        .navigation {
+          display: flex;
+        }
+        .navigation_item {
+          display: flex;
+        }
+        section {
+          display: flex;
+        } 
     
     body {
       background: var(--color-light-gray);
