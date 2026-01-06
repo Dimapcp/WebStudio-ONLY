@@ -33,3 +33,6 @@ section  {
       padding: 10px 20px;
       box-shadow: 3px 3px;
     }
+.advantages_item ::before {
+  background-image: url("​https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg");
+}
