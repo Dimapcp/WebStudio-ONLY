@@ -46,7 +46,10 @@
       gap:30px;
 
     }
-
+    .container {
+      display:flex;
+      margin: 0 auto;
+    }
 
     h1 {
     color: var(--color-dark);
