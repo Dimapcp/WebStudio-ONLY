@@ -17,11 +17,6 @@
     ul {
       padding: 0;
       list-style: none;
-    } 
-    .container{
-      max-width: 1200px;
-      margin: 0 auto;
-      padding:0 15px;
     }
         header {
       background: var(--color-white);
@@ -49,6 +44,7 @@
     .container {
       display:flex;
       margin: 0 auto;
+      align-items: center;
     }
 
     h1 {
