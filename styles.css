@@ -29,7 +29,16 @@
       justify-content: space-between;
       align-items: center;
     }
-
+button {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+    }
+    .ourwoks {
+      display: flex;
+      justify-content: center;
+      
+    }
     .nav-list {
     width: 281px;
     display: flex;
@@ -41,12 +50,12 @@
       gap:30px;
 
     }
-    .container {
+    /* .container {
       display:flex;
       margin: 0 auto;
       align-items: center;
     }
-
+     */
     h1 {
     color: var(--color-dark);
     }
@@ -81,3 +90,7 @@
     }
     .teamMembers {
        box-shadow: 3, 3, 3 ;}
+    .our_projects {
+      text-align: center;
+      margin-bottom: 30px;
+    }
