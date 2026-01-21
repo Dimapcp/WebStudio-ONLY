@@ -7,12 +7,13 @@
       --color-white: #ffffff;         
       --color-footer-bg: #22242a;     
       --color-footer-text: #cbd2db;   
-      --color-border: #e5e7eb;        
+      --color-border: #ebebe5;        
+      --color-yaderka:#ffff00;
         font-family:"Roboto","Snads Shrief";
       --shadow-card: 0 6px 18px rgba(16, 24, 40, 0.04);
       --shadow-button: 0 6px 18px rgba(21, 131, 255, 0.18);
       --radius: 12px;
-      --font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+      --font-family: 'Inter', system-ui, 'apple-system', 'Segoe UI', sans-serif;
       box-shadow: black 5px;
     }
     ul {
@@ -51,12 +52,14 @@ button {
       gap:30px;
 
     }
-    /* .container {
+     .container {
       display:flex;
       margin: 0 auto;
       align-items: center;
+      justify-content: center, space-between;
+      flex-direction:column ;
     }
-     */
+
     h1 {
     color: var(--color-dark);
     }
